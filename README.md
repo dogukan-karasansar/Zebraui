@@ -15,12 +15,12 @@ npm install --save zebraui
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'zebraui'
-import 'zebraui/dist/index.css'
+import { Button } from 'zebrui'
+import 'zebrui/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Button text={'Click'} onClick={() => alert('Hi!')} />
   }
 }
 ```
