@@ -1,7 +1,8 @@
 import React from 'react'
 
-import { Input, Button } from 'zebraui'
+import { Input, Button, Paragraph } from 'zebraui'
 import 'zebraui/dist/index.css'
+
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <br /> <br /> <br />
       <Button text={'Click'} onClick={() => alert('merhaba')} />
       <br />
+      <Paragraph text={'dsadkskdfdsf fdkfgdsgfkdlgdlfg dfgdgsdgdfgsd'} />
       <br />
       <br />
       <Input type='text' />
